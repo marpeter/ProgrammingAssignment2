@@ -1,5 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The following two function allow getting the inverse of a square matrix
+## repeatedly, without redetermining the inverse each time. In other words the
+## inverse is cached.
+## function makeCacheMatrix is used to create the "matrix"
+## function cacheSolve to retrieve the inverse (and cache it if not done yet)
 
 ## creates a "matrix" that can cache its inverse. In fact, a list is created
 ## containg functions to set the matrix, get it, set its inverse (cache) and get it
